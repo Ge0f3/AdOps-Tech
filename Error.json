@@ -1,0 +1,16 @@
+Message: Call was not successful
+  Method:  POST
+  Path:    https://graph.facebook.com/v7.0/240574110535169/campaigns
+  Params:  {'objective': 'POST_ENGAGEMENT', 'status': 'PAUSED', 'special_ad_categories': 'NONE', 'name': 'Campaign Test'}
+
+  Status:  400
+  Response:
+    {
+      "error": {
+        "message": "Unsupported post request. Object with ID '240574110535169' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api",
+        "code": 100,
+        "type": "GraphMethodException",
+        "fbtrace_id": "ACrdwKAabe68FUX4fekSCLD",
+        "error_subcode": 33
+      }
+    }
